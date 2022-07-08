@@ -1,0 +1,59 @@
+name: test
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-37.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  cupertino_will_pop_scope: ^1.2.0
+
+  shared_preferences: ^2.0.13 # Prefs
+  dio: ^4.0.4 # dio
+  pretty_dio_logger: ^1.1.1
+  get_it: ^7.2.0
+
+  flutter_hooks: ^0.18.3 # hooks
+  flutter_bloc: ^8.0.1 # bloc
+
+  flutter_svg: ^1.1.1+1 # svg
+  equatable: ^2.0.3 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: asset/fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: asset/fonts/Lato-Regular.ttf
+          weight: 400
+    - family: TestIcons
+      fonts:
+        - asset: asset/icons/eye.svg
+        - asset: asset/icons/g.svg
+        - asset: asset/icons/back.svg
+        - asset: asset/icons/next.svg
+        - asset: asset/icons/fb.svg
+        - asset: asset/icons/calendar.svg
+        - asset: asset/icons/plus.svg
+        - asset: asset/logo.png
+
+
